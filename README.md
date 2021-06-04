@@ -29,7 +29,7 @@ Moises Requião
 ### CRUD Responsabilidades
 
 Felipe Pereira - Alterar Livro\
-Luan Souza - Remover Livro\
-Lucas Pereira - Listagem de Livros\
+Luan Souza - Listagem de Livros\
+Lucas Pereira - Remover Livro\
 Moises Requião - Adicionar Livro
 
