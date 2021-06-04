@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Desrição do Projeto
+
+Uma biblioteca que você consegue cadastrar livros. Esse cadastro deve ter nome, ano, foto, quantidade de páginas, autor, assunto, idioma. O sistema deve permitir editar e remover o cadastro do livro.
+
+
+### Componentes do Projeto
+
+Felipe Pereira 
+Luan Souza
+Lucas Pereira
+Moises Requião
+
+### CRUD Responsabilidades
+
+Felipe Pereira - Alterar Livro
+Luan Souza - Remover Livro
+Lucas Pereira - Listagem de Livros
+Moises Requião - Adicionar Livro
+
