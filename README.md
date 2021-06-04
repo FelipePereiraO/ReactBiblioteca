@@ -21,15 +21,15 @@ assunto, idioma e fabricante. O sistema deve permitir editar e remover o cadastr
 
 ### Componentes do Projeto
 
-Felipe Pereira 
-Luan Souza
-Lucas Pereira
-Moises Requião
+Felipe Pereira.\ 
+Luan Souza.\
+Lucas Pereira.\
+Moises Requião.\
 
 ### CRUD Responsabilidades
 
-Felipe Pereira - Alterar Livro
-Luan Souza - Remover Livro
-Lucas Pereira - Listagem de Livros
-Moises Requião - Adicionar Livro
+Felipe Pereira - Alterar Livro.\
+Luan Souza - Remover Livro.\
+Lucas Pereira - Listagem de Livros.\
+Moises Requião - Adicionar Livro.\
 
