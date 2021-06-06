@@ -1,0 +1,16 @@
+.img{
+    height: 400px;
+    width: 280px;
+}
+
+.p{
+    margin: 40px;
+    width: 400px;
+}
+#bodylivro{
+    margin: 100px 0;
+    
+}
+.borda{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}

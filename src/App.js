@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import { Switch, Link, Route, Router } from 'react-router-dom'
+import { Switch, Link, Route } from 'react-router-dom'
 import Livros from './components/Livros'
 import AddLivros from './components/AddLivros'
-import RemoveLivro from './components/RemoveLivro'
+import Livro from './components/Livro';
 import AlterLivro from './components/AlterLivro'
 
 
@@ -34,6 +33,8 @@ function App() {
         <Route exact path="/" />
         <Route exact path="/livros" component={Livros}/>
         <Route exact path="/cadastrar" component={AddLivros}/>
+        <Route exact path="/livro/:id" component={Livro} />
+        <Route exact path="/alterar/:id" component={AlterLivro} />
       </Switch>
     </div>
   );
