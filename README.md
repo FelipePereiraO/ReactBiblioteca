@@ -16,8 +16,7 @@ You will also see any lint errors in the console.
 
 ### Descrição do Projeto
 
-Um sistema de biblioteca para cadastrar livros. Esse cadastro deve ter nome, capa do livro, ano, quantidade de páginas, autor,
-assunto, idioma e fabricante. O sistema deve permitir editar e remover o cadastro do livro.
+Um sistema de biblioteca para cadastrar livros. Esse cadastro deve ter nome, capa do livro, ano, quantidade de páginas, autor e descrição. O sistema deve permitir editar e remover o cadastro do livro.
 
 ### Componentes do Projeto
 
