@@ -27,8 +27,8 @@ Moises Requião
 
 ### CRUD Responsabilidades
 
-Felipe Pereira - Livros
-Luan Souza - Funcionarios
-Lucas Pereira - Clientes
+Felipe Pereira - Livros\
+Luan Souza - Funcionarios\
+Lucas Pereira - Clientes\
 Moises Requião - Salas
 
