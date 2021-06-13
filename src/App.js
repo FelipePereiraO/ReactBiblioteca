@@ -1,41 +1,40 @@
-import './App.css';
-import { Switch, Link, Route } from 'react-router-dom'
-import Livros from './components/Livros'
-import AddLivros from './components/AddLivros'
-import Livro from './components/Livro';
-import AlterLivro from './components/AlterLivro'
+import React from "react";
+import { Switch, Route, Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
+import AddTutorial from "./components/AddTutorial";
+import Tutorial from "./components/Tutorial";
+import TutorialsList from "./components/TutorialsList";
 
 function App() {
   return (
-    <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Biblioteca</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <Link class="nav-link" to="/" >Inicio</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/livros" >Livros</Link>
-              <a href="#" ></a>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/cadastrar" >Cadastro</Link>
-            </li>
-          </ul>
+    <div>
+      <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <a href="/tutorials" className="navbar-brand">
+          Exemplo Bootstrap
+        </a>
+        <div className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <Link to={"/tutorials"} className="nav-link">
+              Tutorials
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to={"/add"} className="nav-link">
+              Add
+            </Link>
+          </li>
         </div>
       </nav>
-      <Switch>
-        <Route exact path="/" />
-        <Route exact path="/livros" component={Livros}/>
-        <Route exact path="/cadastrar" component={AddLivros}/>
-        <Route exact path="/livro/:id" component={Livro} />
-        <Route exact path="/alterar/:id" component={AlterLivro} />
-      </Switch>
+
+      <div className="container mt-3">
+        <Switch>
+          <Route exact path={["/", "/tutorials"]} component={TutorialsList} />
+          <Route exact path="/add" component={AddTutorial} />
+          <Route path="/tutorials/:id" component={Tutorial} />
+        </Switch>
+      </div>
     </div>
   );
 }
